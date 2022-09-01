@@ -1,0 +1,101 @@
+    1  sudo yum update
+    2  ssh-keygen -t rsa
+    3  aws configure
+    4  sudo yum install git
+    5  ls
+    6  cat ilja
+    7  mkdir jenkins
+    8  cd jenkins/
+    9  git clone https://github.com/il4real/terraform-jenkins-ci.git
+   10  ls
+   11  cd terraform-jenkins-ci/
+   12  ls
+   13  nano variables.tf 
+   14  cd ~
+   15  ls
+   16  pwd
+   17  cd jenkins/
+   18  ls
+   19  cd terraform-jenkins-ci/
+   20  ls
+   21  nano variables.tf 
+   22  systemctl terraform status
+   23  wget https://releases.hashicorp.com/terraform/0.13.5/terraform_0.13.5_linux_amd64.zip
+   24  unzip terraform_0.13.5_linux_amd64.zip
+   25  ls
+   26  sudo mv terraform /usr/local/bin
+   27  ls
+   28  ls /usr/local/bin
+   29  sudo systemctl terraform start
+   30  sudo systemctl service terraform start
+   31  sudo service terraform start
+   32  ps
+   33  service terraform status
+   34  ./terraform
+   35  ls
+   36  terraform
+   37  echo $"export PATH=\$PATH:$(pwd)" >> ~/.bash_profile
+   38  ls
+   39  source ~/.bash_profile
+   40  ls
+   41  terraform
+   42  ls
+   43  cd ansible/
+   44  ls
+   45  cd ..
+   46  ls
+   47  cat ssh-keys.tf 
+   48  terraform init
+   49  terraform apply
+   50  nano variables.tf 
+   51  terraform apply
+   52  ssh -i "bootcamp-jenkins-4dea-Ilja-key.pem" ubuntu@ec2-3-73-42-93.eu-central-1.compute.amazonaws.com
+   53  ls
+   54  cd ..
+   55  ls
+   56  pwd
+   57  cd jenkins/terraform-jenkins-ci/
+   58  ls
+   59  ssh -i ilja ec2-3-73-42-93.eu-central-1.compute.amazonaws.com
+   60  cd
+   61  ssh -i ilja ec2-3-73-42-93.eu-central-1.compute.amazonaws.com
+   62  ssh -i ilja ip-172-31-66-59.eu-central-1.compute.internal
+   63  ssh -i ilja ubuntu@172.31.66.59
+   64  terraform
+   65  terraform destroy
+   66  sudo wget -O /etc/yum.repos.d/jenkins.repo     https://pkg.jenkins.io/redhat-stable/jenkins.repo
+   67  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+   68  yum upgrade
+   69  sudo yum upgrade
+   70  sudo amazon-linux-extras install java-openjdk11 -y
+   71  sudo yum install jenkins -y
+   72  sudo systemctl enable jenkins
+   73  sudo systemctl start jenkins
+   74  sudo systemctl status jenkins
+   75  cat /var/lib/jenkins/secrets/initialAdminPassword
+   76  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+   77  ls
+   78  git clone https://github.com/il4real/simple-python-pyinstaller-app.git
+   79  ls
+   80  cd simple-python-pyinstaller-app/
+   81  ls
+   82  sudo yum install docker
+   83  sudo yum upgrade
+   84  service docker start
+   85  sudo service dockerd start
+   86  sudo service docker start
+   87  sudo service docker status
+   88  usermod -a -G docker jenkins
+   89  sudo usermod -a -G docker jenkins
+   90  history
+   91  cat /var/lib/jenkins/secrets/initialAdminPassword
+   92  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+   93  docker top --help
+   94  service git status
+   95  systemctl git status
+   96  git status
+   97  sudo service git status
+   98  docker ps -a
+   99  sudo docker ps -a
+  100  sudo docker ps
+  101  history > ilja.txt
